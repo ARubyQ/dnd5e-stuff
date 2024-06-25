@@ -1,0 +1,388 @@
+{
+  "id": "rubyq-dnd5-lib",
+  "title": "RubyQ's dnd5e stuff",
+  "authors": [
+    {
+      "name": "RubyQ",
+      "discord": "https://discord.gg/crossroadpub"
+    }
+  ],
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "esmodules": [
+    "scripts/changelog.js",
+    "scripts/make.js"
+  ],
+  "packFolders": [
+    {
+      "name": "RubyQ's stuff",
+      "sorting": "m",
+      "color": "#5b21b6",
+      "folders": [
+        {
+          "name": "Игроку",
+          "sorting": "m",
+          "color": "#0F2C22",
+          "folders": [
+            {
+              "name": "Классы",
+              "sorting": "m",
+              "color": "#184737",
+              "packs": [
+                "classes",
+                "classfeatures",
+                "subclasses"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Расы",
+              "sorting": "m",
+              "color": "#21634C",
+              "packs": [
+                "races",
+                "racesMPMM"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Происхождения",
+              "sorting": "m",
+              "color": "#2A7F61",
+              "packs": [
+                "backgrounds",
+                "tables"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Заклинания",
+              "sorting": "m",
+              "color": "#329B77",
+              "packs": [
+                "spells"
+              ],
+              "folders": []
+            }
+          ],
+          "packs": []
+        },
+        {
+          "name": "Мастеру",
+          "sorting": "m",
+          "color": "#3F2116",
+          "folders": [
+            {
+              "name": "Чудовища",
+              "sorting": "m",
+              "color": "#5B2F1F",
+              "packs": [
+                "monsters",
+                "monsters2"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Справочник",
+              "sorting": "m",
+              "color": "#763D28",
+              "packs": [
+                "intro"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Предметы и Товары",
+              "sorting": "m",
+              "color": "#924A31",
+              "packs": [
+                "items",
+                "goods"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Макросы",
+              "sorting": "m",
+              "color": "#AE5839",
+              "packs": [
+                "macro"
+              ],
+              "folders": []
+            }
+          ],
+          "packs": []
+        },
+        {
+          "name": "Дополнительно",
+          "sorting": "m",
+          "color": "#111B30",
+          "folders": [
+            {
+              "name": "Состояния",
+              "sorting": "m",
+              "color": "#1A2B4B",
+              "packs": [
+                "conditions"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Действия",
+              "sorting": "m",
+              "color": "#233A66",
+              "packs": [
+                "actions"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Прочие таблицы",
+              "sorting": "m",
+              "color": "#2C4982",
+              "packs": [
+                "tables-extra"
+              ],
+              "folders": []
+            }
+          ],
+          "packs": []
+        }
+      ],
+      "packs": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "backgrounds",
+      "label": "# Происхождения",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_back.webp",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "# Классы",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_classes.webp",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "subclasses",
+      "label": "# Подклассы",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_subclasses.webp",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classfeatures",
+      "label": "# Особенности",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_features.webp",
+      "path": "packs/classfeatures",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "races",
+      "label": "# Расы",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_races.webp",
+      "path": "packs/races",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "racesMPMM",
+      "label": "# Расы — вариативные",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_races1.webp",
+      "path": "packs/racesmpmm",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actions",
+      "label": "# Действия",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner.webp",
+      "path": "packs/actions",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "conditions",
+      "label": "# Состояния",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner.webp",
+      "path": "packs/conditions",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "# Заклинания",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_spell.webp",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monsters",
+      "label": "# Чудовища",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_monsters.webp",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "intro",
+      "label": "# Справочник",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_intro.webp",
+      "path": "packs/intro",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "# Предметы",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_item.webp",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "goods",
+      "label": "# Товары",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_goods.webp",
+      "path": "packs/goods",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables-extra",
+      "label": "# Дополнительные таблицы",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_tables.webp",
+      "path": "packs/tables-extra",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "# Таблицы происхождений",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_tables.webp",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macro",
+      "label": "# Полезные макросы",
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner.webp",
+      "path": "packs/macro",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "socketlib",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dae",
+        "type": "module",
+        "manifest": "https://gitlab.com/tposney/dae/raw/v11/package/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "https://raw.githubusercontent.com/laaruk/images/main/pic/media.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
